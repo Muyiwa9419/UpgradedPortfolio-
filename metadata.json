@@ -1,0 +1,6 @@
+{
+  "name": "David Olumuyiwa Portfolio",
+  "description": "An upgraded, highly interactive React & Express developer portfolio for David Olumuyiwa, featuring an AI Recruiter Chatbot, an interactive Terminal, a Code Upgrader playground, and comprehensive project logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
