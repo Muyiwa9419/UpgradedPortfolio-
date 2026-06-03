@@ -144,22 +144,18 @@ export default function TerminalSpace() {
           type: "output",
           text: (
             <div className="pl-2 space-y-2 text-xs text-gray-300">
-              <p className="text-brand-emerald font-semibold">## Directory Listing /projects:</p>
-              <div className="space-y-2">
-                <div>
-                  <p className="text-white font-bold">1. ApexTask Agile Platform</p>
-                  <p className="pl-2 text-gray-400">Collaboration Board • React, Node.js + Express, Postgres</p>
-                  <p className="pl-2 text-brand-cyan">Uptime: 99.9% Sync Integrity</p>
-                </div>
-                <div>
-                  <p className="text-white font-bold">2. QuantMetrics Suite</p>
-                  <p className="pl-2 text-gray-400">Reactive Data Visualizations • React, d3, custom WebSockets</p>
-                  <p className="pl-2 text-brand-cyan">Throughput: 5,000+ ticks/sec computed on active frame</p>
-                </div>
-                <div>
-                  <p className="text-white font-bold">3. EchoChat Gateway</p>
-                  <p className="pl-2 text-gray-400">Redis-backed Distributed Message Gateway • Docker, Microservices</p>
-                </div>
+              <p className="text-brand-emerald font-semibold">## Systems Technologies Module successfully compiled:</p>
+              <div>
+                <p className="text-brand-cyan font-medium">SYSTEM_LAYERS (Frontend):</p>
+                <p className="pl-2 text-gray-300">React 18/19, TypeScript, motion (Framer), Next.js, Tailwind CSS (v4), d3.js, HTML5-spec, WebSockets</p>
+              </div>
+              <div>
+                <p className="text-brand-cyan font-medium">SERVER_ENGINES (Backend):</p>
+                <p className="pl-2 text-gray-300">Node.js, Express, REST APIs, Python (FastAPI), Redis Memory Store</p>
+              </div>
+              <div>
+                <p className="text-brand-cyan font-medium">STRUCTURES (Databases & DevOps):</p>
+                <p className="pl-2 text-gray-300">PostgreSQL (indexing, transaction lock), MongoDB, Docker, Git, CI/CD, AWS</p>
               </div>
             </div>
           )
@@ -175,16 +171,12 @@ export default function TerminalSpace() {
               <p className="text-brand-emerald font-semibold">## Deployment History Timeline:</p>
               <div className="border-l border-brand-cyan/20 pl-3 ml-1 space-y-2">
                 <div>
-                  <p className="text-white font-medium">CoreTech Solutions — Senior Full-Stack Engineer [2024-Present]</p>
+                  <p className="text-white font-medium">Byinks Foundation — Full-Stack Engineer [2025-2026]</p>
                   <p className="text-gray-400 font-mono text-[10px]">React 19 / Node / Postgres</p>
                 </div>
                 <div>
-                  <p className="text-white font-medium">VisuaLabs Studio — Frontend Architect [2022-2024]</p>
+                  <p className="text-white font-medium">Freelancing — Full-Stack [2022-2024]</p>
                   <p className="text-gray-400 font-mono text-[10px]">Vite / motion / Tailwind / A11Y</p>
-                </div>
-                <div>
-                  <p className="text-white font-medium">SaaSLink Systems — Full Stack Engineer [2020-2022]</p>
-                  <p className="text-gray-400 font-mono text-[10px]">Express APIs / MongoDB / CI / CD</p>
                 </div>
               </div>
             </div>

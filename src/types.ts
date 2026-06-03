@@ -6,7 +6,7 @@ export interface Project {
   tech: string[];
   category: "Full Stack" | "Frontend UI" | "Client Utility";
   metrics: string;
-  codeSnippet: string;
+  // codeSnippet: string;
   highlights: string[];
   link?: string;
   github?: string;

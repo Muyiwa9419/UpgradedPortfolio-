@@ -3,9 +3,12 @@ import { Project, Experience, CoachingProgram } from "./types";
 export const projectsData: Project[] = [
   {
     id: "apextask",
-    title: "ApexTask Workspace",
-    subtitle: "High-Conversion SaaS Collaborative Hub",
-    description: "A real-time workspace modeled to optimize team action rates. Engineered specifically to reduce client checkout and onboard friction, leading to a direct 28% boost in user retention and system sync.",
+    title: "Byinks_Health",
+    subtitle: "Real-Time Healthcare Experience Platform",
+    description: `Byinks Health is a healthcare platform designed to reduce the stress of traditional hospital visits by enabling patients to receive virtual consultations and get checked online from anywhere. This shift toward accessible care significantly improves patient experience while reducing friction in accessing medical services.
+
+    To support this ecosystem, I built a real-time collaboration workspace that streamlines internal team coordination and optimizes operational flow across patient onboarding and consultation processes. The system was engineered to reduce friction in critical user journeys such as registration, onboarding, and checkout, ensuring faster and smoother interactions between patients and healthcare providers.`,
+
     tech: ["React 19", "TypeScript", "Node.js", "Express", "PostgreSQL", "Redis", "Socket.io"],
     category: "Full Stack",
     metrics: "28% Onboarding Conversion Lift • 99.9% Sync Uptime",
@@ -14,36 +17,15 @@ export const projectsData: Project[] = [
       "Engineered lightweight background synchronizers using PostgreSQL triggers and Redis pub/sub.",
       "Designed full screen dual-pane dashboard with fluid drawer transitions reducing checkout checkout bounce rates."
     ],
-    codeSnippet: `// Live React 19 State Synchronization Hook
-export function useBoardSync(boardId: string) {
-  const [board, setBoard] = useState<Board | null>(null);
-
-  useEffect(() => {
-    const socket = io(\`/boards/\${boardId}\`, {
-      transports: ["websocket"]
-    });
-
-    socket.on("board:update", (updatedBoard: Board) => {
-      // Clean transactional update
-      setBoard(prev => ({
-        ...prev,
-        ...updatedBoard,
-        tasks: reconcileTasks(prev?.tasks, updatedBoard.tasks)
-      }));
-    });
-
-    return () => { socket.disconnect(); };
-  }, [boardId]);
-
-  return board;
-}`
+    
   },
   {
-    id: "quantmetrics",
-    title: "QuantMetrics Engine",
-    subtitle: "High-Visibility Financial Conversion Dashboard",
-    description: "An analytical landing engine processing WebSocket ticks to present instant ROI visualizers. Drives trial signups by delivering critical financial trends with zero lag, transforming cold traffic into active customers.",
-    tech: ["Vite", "React", "TypeScript", "d3.js", "Recharts", "Tailwind CSS"],
+    id: "Electrical",
+    title: "Electrical Installation",
+    subtitle: "High-Conversion Website",
+    description: `Value Impact Services is a specialist electrical installation company providing safe, efficient, and high-performance electrical solutions for homes, businesses, and industrial facilities. The website highlights the company’s commitment to precision, safety standards, and dependable execution across all electrical projects.`,
+
+    tech: ["Vite", "React", "TypeScript", "Tailwind CSS"],
     category: "Frontend UI",
     metrics: "45% Trial Conversion Boost • 5,000+ ticks/sec",
     highlights: [
@@ -51,36 +33,15 @@ export function useBoardSync(boardId: string) {
       "Engineered smart memoization rules with useMemo and custom worker threads to compute historical EMA trends.",
       "Built fluid SEO-optimized loading structures styled with Tailwind utility classes to capture high Google visibility."
     ],
-    codeSnippet: `// High-frequency canvas ticking bridge
-export class CanvasTickPlotter {
-  private ctx: CanvasRenderingContext2D;
-  private buffer: TickPayload[] = [];
-
-  constructor(canvas: HTMLCanvasElement) {
-    this.ctx = canvas.getContext("2d")!;
-  }
-
-  public push(tick: TickPayload) {
-    this.buffer.push(tick);
-    if (this.buffer.length > 500) this.buffer.shift();
-    this.requestFrameRender();
-  }
-
-  private requestFrameRender() {
-    requestAnimationFrame(() => {
-      this.ctx.clearRect(0, 0, this.ctx.canvas.width, this.ctx.canvas.height);
-      this.drawTrendGrid();
-      this.drawTickLine();
-    });
-  }
-}`
+    
   },
   {
-    id: "echochat",
-    title: "EchoChat Gateway",
-    subtitle: "High-Availability Buyer Communication Relay",
-    description: "A scale-out socket server cluster designed to power interactive conversion bubbles and client support hubs. Built to never drop high-value customer inquiries.",
-    tech: ["Node.js", "Express", "TypeScript", "Redis", "Docker", "SocketJS"],
+    id: "Oil & Gas",
+    title: "Oil & Gas",
+    subtitle: "High-Conversion Website",
+    description: `Wendstan Resources is an oil and gas company focused on delivering reliable energy solutions across the upstream, midstream, and downstream sectors. The website highlights the company’s commitment to operational excellence, safety standards, and efficient energy distribution, connecting clients to trusted petroleum and energy services.`,
+
+    tech: ["Node.js", "Express", "TypeScript", "Redis", ],
     category: "Client Utility",
     metrics: "Zero Dropped Leads • 20k Concurrent Channels",
     highlights: [
@@ -88,33 +49,16 @@ export class CanvasTickPlotter {
       "Authored clean custom middleware packages for authorization, session validations and request rate-limiting.",
       "Designed and deployed container layouts inside lightweight Alpine-based staging Docker ecosystems."
     ],
-    codeSnippet: `// Socket Cluster Gateway authentication layer
-export const socketAuthMiddleware = async (
-  socket: Socket, 
-  next: (err?: Error) => void
-) => {
-  try {
-    const token = socket.handshake.auth.token;
-    if (!token) return next(new Error("Authentication secret required"));
-
-    const session = await redisClient.get(\`session:\${token}\`);
-    if (!session) return next(new Error("Token has expired."));
-
-    socket.data.user = JSON.parse(session);
-    return next();
-  } catch (err) {
-    return next(new Error("Internal Gateway check failed"));
-  }
-};`
+    
   }
 ];
 
 export const experiencesData: Experience[] = [
   {
     id: "exp-1",
-    role: "Senior Full-Stack Engineer",
-    company: "CoreTech Solutions",
-    period: "2024 - Present",
+    role: "Full-Stack Engineer",
+    company: "Byinks Foindation - Ikeja, Lagos",
+    period: "2025 - 2026",
     description: [
       "Architect and scale multi-tenant React applications built with modern TypeScript, Tailwind, and Express backend pipelines.",
       "Redesigned data analytics platforms, reducing page hydration delay metrics by 35% and upgrading legacy standard Bootstrap layouts to pixel-perfect custom containers.",
@@ -124,9 +68,9 @@ export const experiencesData: Experience[] = [
   },
   {
     id: "exp-2",
-    role: "Frontend Specialist & Interaction Designer",
-    company: "VisuaLabs Studio",
-    period: "2022 - 2024",
+    role: "Full-Stack Engineer",
+    company: "Freelancing",
+    period: "2024 - Present",
     description: [
       "Crafted beautiful premium micro-interactions, responsive dashboard hubs, and immersive canvas systems.",
       "Migrating complex legacy platforms into fluid modern, single view dashboards using Motion physics and Vite builds.",
@@ -134,18 +78,7 @@ export const experiencesData: Experience[] = [
     ],
     tags: ["Vite", "React", "motion", "Tailwind CSS", "A11Y", "d3.js"]
   },
-  {
-    id: "exp-3",
-    role: "Full Stack Engineer",
-    company: "SaaSLink Systems",
-    period: "2020 - 2022",
-    description: [
-      "Co-designed and developed robust Node.js REST and Express Web APIs servicing over 100k daily payload actions.",
-      "Configured fully isolated staging clusters utilizing Docker setups, reducing environment sync bugs by 90%.",
-      "Created highly reactive frontend settings grids and historical log engines with robust state persistence."
-    ],
-    tags: ["Express", "MongoDB", "REST APIs", "Vite", "Git", "Tailwind"]
-  }
+  
 ];
 
 export const skillsByCategory = {

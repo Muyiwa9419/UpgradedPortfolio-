@@ -171,7 +171,7 @@ export default function CodeUpgrader() {
                 <Radio className="w-4 h-4" />
               </div>
               <div>
-                <p className="text-xs font-bold text-white">Gemini Client Route</p>
+                <p className="text-xs font-bold text-white">Client Route</p>
                 <p className="text-[10px] text-gray-400 mt-0.5">Proximity-secure routing</p>
               </div>
             </div>

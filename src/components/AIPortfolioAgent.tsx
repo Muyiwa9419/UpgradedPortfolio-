@@ -117,7 +117,7 @@ export default function AIPortfolioAgent() {
                 <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-brand-cyan"></span>
               </span>
               <p className="text-[10px] font-mono text-gray-500 uppercase font-black uppercase">
-                Powered by Gemini 3.5
+                Powered by David Olumuyiwa
               </p>
             </div>
           </div>

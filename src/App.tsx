@@ -86,7 +86,7 @@ export default function App() {
             </span>
             <div className="hidden sm:block">
               <p className="text-sm font-display font-black leading-none text-white tracking-wide">David Olumuyiwa</p>
-              <p className="text-[10px] font-mono text-gray-500 font-bold uppercase tracking-wider mt-0.5">Full stack upgraded</p>
+              
             </div>
           </a>
 
@@ -217,17 +217,17 @@ export default function App() {
               {/* Launcher banner tag */}
               <div className="inline-flex items-center space-x-2.5 bg-brand-cyan/10 border border-brand-cyan/15 rounded-full px-3.5 py-1.5 text-xs text-brand-cyan font-mono select-none">
                 <span className="w-2 h-2 rounded-full bg-brand-cyan animate-pulse" />
-                <span className="font-bold">SYSTEM UPGRADE: v2.5 ACTIVE</span>
+                
               </div>
 
               {/* Title heading */}
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold tracking-tight text-white leading-tight">
-                I Grow Your Business With Websites that <span className="bg-gradient-to-r from-brand-cyan to-brand-emerald bg-clip-text text-transparent">Convert</span>.
+              Your Business Deserves a Website That Sells<span className="bg-gradient-to-r from-brand-cyan to-brand-emerald bg-clip-text text-transparent"></span>.
               </h1>
 
               {/* Pitch narrative */}
               <p className="text-sm md:text-base text-gray-400 max-w-xl leading-relaxed">
-                I build blazing-fast, secure, and Google-visible web platforms tailored to amplify your brand visibility and skyrocket user conversion rates. I also offer expert full-stack coaching to empower squads with high-velocity engineering rules.
+              I build fast, secure, and SEO-optimized web platforms that boost your brand visibility and increase conversions. I also provide expert full-stack coaching to help teams ship better, faster software.
               </p>
 
               {/* Call-to-actions buttons */}
@@ -251,11 +251,11 @@ export default function App() {
               {/* Stats overview overlay */}
               <div className="grid grid-cols-3 gap-6 pt-6 border-t border-white/5 font-mono select-none">
                 <div>
-                  <p className="text-xl sm:text-2xl font-bold text-white">4+</p>
+                  <p className="text-xl sm:text-2xl font-bold text-white">3+</p>
                   <p className="text-[10px] text-gray-500 uppercase font-black uppercase mt-1">Years Tech Experience</p>
                 </div>
                 <div>
-                  <p className="text-xl sm:text-2xl font-bold text-white">15+</p>
+                  <p className="text-xl sm:text-2xl font-bold text-white">10+</p>
                   <p className="text-[10px] text-gray-500 uppercase font-black uppercase mt-1">SaaS Deployments</p>
                 </div>
                 <div>
@@ -280,7 +280,7 @@ export default function App() {
               <div className="space-y-4">
                 <div>
                   <p className="text-[10px] font-mono text-brand-cyan font-bold uppercase">Identity Core:</p>
-                  <p className="text-base font-semibold text-white mt-1">David Muyiwa Olumuyiwa</p>
+                  <p className="text-base font-semibold text-white mt-1">David Olumuyiwa</p>
                 </div>
                 
                 <div>
@@ -762,7 +762,7 @@ export default function App() {
                 Streamlining Technical Growth & Strategy.
               </h3>
               <p className="text-xs text-gray-400 leading-relaxed">
-                Hiring senior specialists or auditing web channels shouldn't take forever. This customized LLM agent is loaded with complete knowledge vectors about David's projects, conversion optimization, CRO strategy, and developer coaching programs. 
+                Hiring specialists or auditing web channels shouldn't take forever. This customized LLM agent is loaded with complete knowledge vectors about David's projects, conversion optimization, CRO strategy, and developer coaching programs. 
               </p>
               
               <div className="bg-brand-dark-900 border border-white/5 rounded-xl p-4 text-left space-y-2.5 font-mono text-xs text-gray-400 leading-loose select-none">
@@ -788,7 +788,7 @@ export default function App() {
                     <span>{copiedEmail ? "Copied OK!" : "david.muyiwa.31@gmail.com"}</span>
                   </button>
                   <a 
-                    href="https://linkedin.com" // Standard fallback, actual can look professional
+                    href="https://linkedin.com/in/david-olumuyiwa-7163b2365" // Standard fallback, actual can look professional
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="px-4 py-2 rounded-lg bg-white/5 border border-white/5 hover:border-white/10 transition flex items-center justify-center space-x-1.5 font-bold select-none text-white w-full sm:w-auto"
@@ -879,7 +879,7 @@ export default function App() {
                     <span className="text-[9px] font-mono text-gray-500">TYPESCRIPT • READONLY</span>
                   </div>
                   <pre className="p-4 bg-brand-dark-950 border border-white/5 rounded-xl font-mono text-[10px] sm:text-xs text-brand-cyan overflow-x-auto leading-relaxed">
-                    <code>{activeProject.codeSnippet}</code>
+                    {/* <code>{activeProject.codeSnippet}</code> */}
                   </pre>
                 </div>
 
@@ -901,11 +901,11 @@ export default function App() {
       <footer className="bg-brand-dark-950/45 py-12 px-6 border-t border-white/5 text-center select-none font-mono text-xs text-gray-600 mt-12">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <p>
-            Designed & Engineered by <span className="text-gray-300 font-bold">David Olumuyiwa</span> • Portfolio Upgrade v2.5
+            Designed & Engineered by <span className="text-gray-300 font-bold">David Olumuyiwa</span>
           </p>
           <div className="flex items-center space-x-4">
             <a 
-              href="https://github.com" // generic fallback
+              href="https://github.com/Muyiwa9419/" // generic fallback
               target="_blank" 
               rel="noopener noreferrer" 
               className="p-2 rounded-lg hover:bg-white/5 text-gray-500 hover:text-white transition"
@@ -914,7 +914,7 @@ export default function App() {
               <Github className="w-4 h-4" />
             </a>
             <a 
-              href="https://linkedin.com" // generic fallback
+              href="https://linkedin.com/in/david-olumuyiwa-7163b2365" // generic fallback
               target="_blank" 
               rel="noopener noreferrer" 
               className="p-2 rounded-lg hover:bg-white/5 text-gray-500 hover:text-white transition"
